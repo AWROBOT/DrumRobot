@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/fbutton_color_belize_hole"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        >
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:columnCount="1"
+            android:rowCount="2"
+            android:orientation="horizontal"
+            >
+
+            <info.hoang8f.widget.FButton
+                android:id="@+id/drum_button"
+                android:layout_width="280dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:text="PLAY DRUM"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white" />
+
+            <info.hoang8f.widget.FButton
+                android:id="@+id/song_button"
+                android:layout_width="280dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:text="PLAY SONG"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white" />
+
+        </GridLayout>
+
+    </LinearLayout>
+
+</FrameLayout>
+

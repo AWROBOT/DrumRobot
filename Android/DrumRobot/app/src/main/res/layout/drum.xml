@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/fbutton_color_belize_hole"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        >
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:columnCount="2"
+            android:rowCount="1"
+            android:orientation="horizontal"
+            >
+
+            <info.hoang8f.widget.FButton
+                android:id="@+id/left_button"
+                android:layout_width="140dp"
+                android:layout_height="160dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:text="LEFT"
+                android:textSize="36sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white" />
+
+            <info.hoang8f.widget.FButton
+                android:id="@+id/right_button"
+                android:layout_width="140dp"
+                android:layout_height="160dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="RIGHT"
+                android:textSize="36sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white" />
+
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:columnCount="1"
+            android:rowCount="1"
+            android:orientation="horizontal"
+            >
+
+            <info.hoang8f.widget.FButton
+                android:id="@+id/both_button"
+                android:layout_width="300dp"
+                android:layout_height="160dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:text="BOTH"
+                android:textSize="36sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white" />
+
+        </GridLayout>
+
+    </LinearLayout>
+
+</FrameLayout>
+
